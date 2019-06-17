@@ -20,6 +20,7 @@ yapf = "*"
 
 [packages]
 f90nml = "*"
+pyyaml = "*"
 
 [requires]
 python_version = "3.7"
