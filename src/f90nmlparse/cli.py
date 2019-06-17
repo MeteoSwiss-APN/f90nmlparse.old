@@ -28,7 +28,7 @@ __version__ = '0.1.0'
 @click.option('--out_file', '-o', help="Output file")
 @click.argument('infile', type=click.File('rb'), nargs=1)
 def main(*args, **kwargs):
-    """Parse fortran namelist and print it in json format"""
+    """Parse fortran namelist and print it in different formats to an output file or to stdout"""
 
     logging.basicConfig(level=count_to_log_level(kwargs['verbose']))
 
