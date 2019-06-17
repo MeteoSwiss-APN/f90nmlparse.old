@@ -1,0 +1,7 @@
+&REPORT 
+ excl_bnd = 0.67, 
+ height_t = 300.  
+/
+&RULES
+  t%use       = 7 
+/
