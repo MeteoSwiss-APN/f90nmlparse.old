@@ -11,7 +11,9 @@ Parses Fortran Namelists
 Features
 --------
 
-* TODO
+* parse namelist
+* output namelist in json, nml and yaml format
+* output to a file or to stdout
 
 Credits
 -------
